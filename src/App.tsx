@@ -7,8 +7,8 @@ function App() {
   return (
     <div>
       <Navbar />
-      {arr.map((item, index) => {
-        return <List item={item} key={index} />
+      {arr.map((item) => {
+        return <List item={item} />
       })}
     </div>
   )
