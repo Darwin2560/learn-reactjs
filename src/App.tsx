@@ -16,7 +16,7 @@ function App() {
     <div className="cards">
       {
         Places.map((place) => (
-          <Card image={place.image} title={place.title} author={place.author} />
+          <Card key={place.id} image={place.image} title={place.title} author={place.author} />
         ))
       }
     </div>
